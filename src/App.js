@@ -9,7 +9,7 @@ function App() {
       <div className="sticky top-0 z-50 bg-white border-b shadow-sm">
         {/* Top row: logo + business name */}
         <div className="flex items-center justify-between px-6 py-4">
-          <img src="/barker sanitation logo.png" alt="Tom Barker Sanitation Logo" className="w-24 mr-4" />
+          <img src="/barker sanitation logo.png" alt="Tom Barker Sanitation Logo" className="w-40 mr-4" />
           <h1 className="text-2xl sm:text-3xl font-bold text-green-800 text-right">
             Tom Barker Sanitation
           </h1>
@@ -26,7 +26,7 @@ function App() {
         </div>
       </div>
       <p className="text-lg text-gray-600 text-center mt-6 mb-10">
-        Serving Jefferson, NY — Reliable garbage and recycling pickup
+        Serving the Town of Jefferson and Schoharie County Area Since 1996
       </p>
 
       {/*
@@ -45,6 +45,7 @@ function App() {
           <li>Recycling services</li>
           <li>Bulk trash removal</li>
           <li>Seasonal yard waste collection</li>
+          <li>Clean-up jobs</li>
           <li>Special pickups available upon request</li>
         </ul>
       </section>
@@ -60,7 +61,7 @@ function App() {
 
       <section id="contact" className="mb-10">
         <h2 className="text-2xl font-semibold text-green-700 mb-4">Contact</h2>
-        <p>You can reach us at (607) 652-7884 or info@tombarkersanitation.com</p>
+        <p>You can reach us at (607) 652-7884 or info@drofgarbology.com</p>
       </section>
 
       <section className="mb-10">
