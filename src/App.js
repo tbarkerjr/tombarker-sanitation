@@ -72,44 +72,6 @@ function App() {
         </p>
       </section>
 
-      <section id="login" className="mb-10">
-        <h2 className="text-2xl font-semibold text-green-700 mb-4">Customer Login</h2>
-        {user ? (
-          <div className="space-y-3">
-            <p>Welcome back, {user.name}!</p>
-            <button
-              className="bg-green-700 text-white px-4 py-2 rounded hover:bg-green-800"
-              onClick={() => alert('Redirecting to payment...')}
-            >
-              Make a Payment
-            </button>
-            <button
-              className="ml-4 text-red-600 underline"
-              onClick={() => setUser(null)}
-            >
-              Logout
-            </button>
-          </div>
-        ) : (
-          <div className="space-y-2 max-w-sm">
-            <input
-              placeholder="Email"
-              className="border p-2 rounded w-full"
-            />
-            <input
-              placeholder="Password"
-              type="password"
-              className="border p-2 rounded w-full"
-            />
-            <button
-              className="bg-green-700 text-white px-4 py-2 rounded hover:bg-green-800 w-full"
-              onClick={() => setUser({ name: 'Customer' })}
-            >
-              Login
-            </button>
-          </div>
-        )}
-      </section>
             {showLogin && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
             <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-sm relative">
