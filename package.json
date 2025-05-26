@@ -14,7 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "postinstall": "tailwindcss -i ./src/index.css -o ./src/tailwind-output.css || true"
   },
   "browserslist": {
     "production": [
